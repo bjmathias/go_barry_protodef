@@ -1,0 +1,11 @@
+syntax = "proto2";
+	package go_barry_protodef;
+
+ 	
+	message BarryTest {
+    
+    required int32 messagetype= 1 [default = 0];
+    required int32 version = 2 [default=1];
+	  required int64 timestamp = 3;
+	  optional int64 value = 4;
+	}

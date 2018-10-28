@@ -1,0 +1,1 @@
+protoc --go_out=C:\Users\mathias\go\src\github.com\bjmathias\go_barry_protodef -I C:/Users/mathias/go/src/github.com/bjmathias/go_barry_protodef/ barry.proto
